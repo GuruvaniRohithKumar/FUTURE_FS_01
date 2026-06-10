@@ -21,6 +21,22 @@ const About = () => {
     }
   ];
 
+  // New Personal Profile Grid Data
+  const personalGrids = [
+    {
+      title: "🗣️ Languages Known",
+      items: ["Telugu (Native)", "English", "Hindi"]
+    },
+    {
+      title: "🎨 Hobbies",
+      items: ["Coding Challenges", "Tech Blogging", "Exploring AI Tools"] // 💡 Edit these to your actual hobbies!
+    },
+    {
+      title: "⚡ Habits",
+      items: ["Continuous Learning", "Daily Code Practice", "Time Management"] // 💡 Edit these to your actual habits!
+    }
+  ];
+
   return (
     <section id="about" className="about-section">
       <h2>About Me</h2>
@@ -33,7 +49,7 @@ const About = () => {
         <strong> Synent Technologies</strong>, alongside competing in numerous industry hackathons.
       </p>
       
-      <p>
+      <p style={{ marginBottom: '50px' }}>
         With robust competency across multiple programming paradigms—including Java, Python, C, and 
         advanced SQL data manipulation—I thrive at the intersection of structural backend logic and 
         responsive frontend user experiences. As I transition into my B.Tech engineering degree, 
@@ -41,7 +57,40 @@ const About = () => {
         Specialist, building intelligent data-driven applications that solve complex real-world challenges.
       </p>
 
-      <div style={{ marginTop: '50px', width: '100%' }}>
+      {/* ==========================================================================
+         NEW PERSONAL SUITE GRID (LANGUAGES, HOBBIES, HABITS)
+         ========================================================================== */}
+      <div className="projects-grid" style={{ marginBottom: '60px', width: '100%' }}>
+        {personalGrids.map((grid, idx) => (
+          <div key={idx} className="project-card" style={{ padding: '25px', textAlign: 'left' }}>
+            <h3 style={{ fontSize: '1.2rem', marginBottom: '15px', color: 'var(--text-primary)' }}>
+              {grid.title}
+            </h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              {grid.items.map((item, itemIdx) => (
+                <div 
+                  key={itemIdx} 
+                  style={{
+                    padding: '10px 15px',
+                    backgroundColor: '#f8fafc',
+                    borderRadius: '8px',
+                    fontSize: '0.95rem',
+                    fontWeight: '600',
+                    color: 'var(--text-secondary)',
+                    border: '1px solid var(--border-color)'
+                  }}
+                >
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Technical Skillsets Section */}
+      <div style={{ width: '100%' }}>
+        <h2 style={{ fontSize: '1.8rem', marginBottom: '30px' }}>Technical Skillset</h2>
         {skillCategories.map((category, index) => (
           <div key={index} style={{ marginBottom: '35px' }}>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '15px', color: 'var(--text-primary)' }}>
