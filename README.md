@@ -1,16 +1,44 @@
-# React + Vite
+# 🚀 Personal Professional Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This project was built as a responsive single-page web application using React.js and Vite. It serves as a digital resume to showcase my technical engineering expertise, web projects, and skills to recruiters and evaluators.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Dynamic Navigation:** Smooth scrolling across sections using a sticky, modern navigation bar.
+- **Centrally Aligned UI:** Perfectly balanced layouts for biography details and technical asset chips.
+- **Functional Contact Form:** Fully integrated with Formspree to handle active recruiter inquiries straight to my email inbox.
+- **Modern Color Palette:** Styled using a premium pastel theme combining crisp white cards, soft pink highlights, and corporate sky blue gradient accents.
+- **Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile screens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack & Architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Core:** HTML5, CSS3 (Flexbox, Grid layouts, and Media Queries)
+- **Framework:** React.js (Component-based modular architecture)
+- **Build Tool:** Vite (For lightning-fast development and compilation)
+- **Backend Communication:** Formspree API Endpoint Integration
+- **Version Control & Hosting:** Git, GitHub, and Vercel
+
+---
+
+## 📂 Project Structure
+
+Here is the structural map of the codebase:
+
+```text
+my-portfolio/
+├── public/             # Static public assets
+├── src/                # Central application source code
+│   ├── components/     # Modular UI sections
+│   │   ├── About.jsx   # Biography, skill headers, and centered tech chips
+│   │   ├── Contact.jsx # Functional email form with status triggers
+│   │   ├── Hero.jsx    # Professional landing banner with text gradients
+│   │   ├── Navbar.jsx  # Floating sticky navigation bar with glassmorphism
+│   │   └── Projects.jsx# Grid layout showcasing development tasks
+│   ├── App.css         # Custom responsive light theme style guide
+│   ├── App.jsx         # Root layout orchestrator linking components
+│   └── main.jsx        # App mounting and DOM initialization configuration
+└── README.md           # Project documentation and setup guide
