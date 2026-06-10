@@ -10,7 +10,7 @@ const Education = () => {
       institution: "Gnanoodaya Grammer High School",
       address: "Balapur, Hyderabad, Telangana, India", // 💡 Feel free to update the exact address line
       year: "Completed: 2022-2023",
-      performance: "Percentage: 90%", // 💡 Update with your actual school percentage/GPA
+      performance: "Percentage: 82%", // 💡 Update with your actual school percentage/GPA
       details: "Graduated secondary school education with strong marks, focusing heavily on Mathematics and foundation computer science mechanics."
     },
     {
@@ -19,17 +19,8 @@ const Education = () => {
       institution: "Sree Dattha Engineering and Science Institution",
       address: "Sheriguda, Ibrahimpatnam, Greater Hyderabad, Telangana, India",
       year: "Completed: 2023-2026",
-      performance: "Agg: 85%", // 💡 Update with your actual diploma percentage or CGPA
+      performance: "Agg: 91%", // 💡 Update with your actual diploma percentage or CGPA
       details: "Earned a comprehensive Technical Diploma in Computer Science Engineering. Built strong foundation frameworks across Java, Python, C programming, and structural SQL data analytics."
-    },
-    {
-      id: 3,
-      level: "B.Tech (AI & Data Science)",
-      institution: "Your Incoming B.Tech College Name", // 💡 Replace with your college name when decided
-      address: "College Campus Location Address, India",
-      year: "Admissions Open: 2026 – Present",
-      performance: "Status: Pursuing",
-      details: "Transitioning into advanced engineering specializations focusing on computational data modeling, machine learning nodes, and algorithmic automation processes."
     }
   ];
 
