@@ -30,6 +30,20 @@ const Projects = () => {
       description: "A modern and interactive restaurant website developed using HTML, CSS, and JavaScript. The website provides customers with an engaging platform to explore the restaurant, browse the menu, read reviews, and reserve tables online.",
       tags: ["HTML5", "CSS3", "JavaScript"],
       github: "https://github.com/GuruvaniRohithKumar/synent-task7-Multi_Page_Website-G_Rohith_Kumar" // Replace with your link 
+    },
+    {
+       id: 5,
+      title: "Login Page UI",
+      description: "A modern, responsive, and interactive login platform built using HTML, CSS, and JavaScript. This project provides a clean authentication interface with real-time validation, animated transitions, toast notifications, and user profile information collection.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/GuruvaniRohithKumar/synent-task3-LoginpageUI-G_Rohith_Kumar" // Replace with your link  
+    },
+    {
+        id: 5,
+      title: "Weekly Habit Tracker",
+      description: "A modern and responsive habit-tracking web application built using HTML, CSS, and Vanilla JavaScript. This application helps users create habits, track daily progress throughout the week, export data as CSV files, and store progress locally using the browser's Local Storage.",
+      tags: ["HTML", "CSS", "Vanilla JavaScript"],
+      github: "https://github.com/GuruvaniRohithKumar/synent-task5-todolistwebapp-G_Rohith_Kumar" // Replace with your link  
     }
     // 💡 To add a 4th project, just add a comma here and paste another card block!
   ];
