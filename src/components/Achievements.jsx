@@ -16,6 +16,14 @@ const Achievements = () => {
       organization: "Intellipaat",
       year: "2026",
       certificateLink: "https://lms.intellipaat.com/certificate-link/?Yz0yODUzJnU9NDAzNjkwJmV4dD0x"
+    },
+     {
+      id: 3,
+      title: "Hackathon Participation Certificate",
+      organization: "Sree Dattha Engineering And Science Institution",
+      year: "2025",
+      // 💡 Paste the actual credential link or hosted PDF/Image URL below:
+      certificateLink: "https://kommodo.ai/i/MshWcNAdSuEW9vlCljhM" 
     }
   ];
 
