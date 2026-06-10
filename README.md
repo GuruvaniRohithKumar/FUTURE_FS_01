@@ -24,6 +24,10 @@ Welcome to my personal developer portfolio! This project was built as a responsi
 
 ---
 
+## 🌐 Live Deployment
+The project is continuously integrated and deployed live on the web! 
+👉 **[View My Live Portfolio Site Here](https://future-fs-01-three-zeta.vercel.app/)**
+
 ## 📂 Project Structure
 
 Here is the structural map of the codebase:
@@ -42,7 +46,3 @@ my-portfolio/
 │   ├── App.jsx         # Root layout orchestrator linking components
 │   └── main.jsx        # App mounting and DOM initialization configuration
 └── README.md           # Project documentation and setup guide
-
-## 🌐 Live Deployment
-The project is continuously integrated and deployed live on the web! 
-👉 **[View My Live Portfolio Site Here](https://future-fs-01-three-zeta.vercel.app/)**
