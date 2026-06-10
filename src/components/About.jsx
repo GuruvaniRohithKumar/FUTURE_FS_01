@@ -28,12 +28,12 @@ const About = () => {
       items: ["Telugu (Native)", "English", "Hindi"]
     },
     {
-      title: "🎨 Hobbies",
-      items: ["Coding Challenges", "Tech Blogging", "Exploring AI Tools"] // 💡 Edit these to your actual hobbies!
+      title: "🌱 Hobbies",
+      items: ["Badminton", "Cooking", "Listening Motivation Speeches"] // 💡 Edit these to your actual hobbies!
     },
     {
-      title: "⚡ Habits",
-      items: ["Continuous Learning", "Daily Code Practice", "Time Management"] // 💡 Edit these to your actual habits!
+      title: "📜 Habits",
+      items: ["Writing Works", "Daily Code Practice", "Time Management"] // 💡 Edit these to your actual habits!
     }
   ];
 
