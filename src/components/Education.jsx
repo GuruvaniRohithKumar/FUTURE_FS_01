@@ -7,23 +7,16 @@ const Education = () => {
     {
       id: 1,
       level: "Schooling",
-      institution: "Your Secondary School Name Here",
-      year: "Completed: 2023",
-      details: "Graduated with strong marks, focusing heavily on Mathematics and foundation Computer Science mechanics."
+      institution: "Gnanoodaya Grammer High School",
+      year: "Completed: 2022-2023",
+      CGPA: "82%"
     },
     {
       id: 2,
       level: "Diploma in CSE",
       institution: "Sree Dattha Engineering and Science Institution",
       year: "Completed: 2026",
-      details: "Earned a comprehensive Technical Diploma in Computer Science Engineering. Built foundation logical frameworks across Java, Python, C, and structural SQL analytics."
-    },
-    {
-      id: 3,
-      level: "B.Tech (AI & Data Science)",
-      institution: "Incoming Engineering University",
-      year: "Admissions Open: 2026 – Present",
-      details: "Transitioning into advanced engineering specializations focusing on computational data modeling, machine learning nodes, and algorithmic automation processes."
+      CGPA: "91%"
     }
   ];
 
