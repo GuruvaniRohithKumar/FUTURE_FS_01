@@ -8,22 +8,35 @@ const Education = () => {
       id: 1,
       level: "Schooling",
       institution: "Gnanoodaya Grammer High School",
+      address: "Balapur, Hyderabad, Telangana, India", // 💡 Feel free to update the exact address line
       year: "Completed: 2022-2023",
-      CGPA: "82%"
+      performance: "Percentage: 90%", // 💡 Update with your actual school percentage/GPA
+      details: "Graduated secondary school education with strong marks, focusing heavily on Mathematics and foundation computer science mechanics."
     },
     {
       id: 2,
       level: "Diploma in CSE",
       institution: "Sree Dattha Engineering and Science Institution",
-      year: "Completed: 2026",
-      CGPA: "91%"
+      address: "Sheriguda, Ibrahimpatnam, Greater Hyderabad, Telangana, India",
+      year: "Completed: 2023-2026",
+      performance: "Agg: 85%", // 💡 Update with your actual diploma percentage or CGPA
+      details: "Earned a comprehensive Technical Diploma in Computer Science Engineering. Built strong foundation frameworks across Java, Python, C programming, and structural SQL data analytics."
+    },
+    {
+      id: 3,
+      level: "B.Tech (AI & Data Science)",
+      institution: "Your Incoming B.Tech College Name", // 💡 Replace with your college name when decided
+      address: "College Campus Location Address, India",
+      year: "Admissions Open: 2026 – Present",
+      performance: "Status: Pursuing",
+      details: "Transitioning into advanced engineering specializations focusing on computational data modeling, machine learning nodes, and algorithmic automation processes."
     }
   ];
 
   return (
     <section id="education" className="education-section" style={{ textAlign: 'center' }}>
       <h2>My Academic Journey</h2>
-      <p style={{ marginBottom: '30px', color: 'var(--text-secondary)' }}>Click on any milestone to view institution and graduation details.</p>
+      <p style={{ marginBottom: '30px', color: 'var(--text-secondary)' }}>Click on any milestone to view institution location and performance highlights.</p>
       
       {/* Interactive Level Selectors */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', marginBottom: '30px', flexWrap: 'wrap' }}>
@@ -54,13 +67,32 @@ const Education = () => {
         <div 
           key={edu.id} 
           className="project-card" 
-          style={{ maxWidth: '650px', margin: '0 auto', textAlign: 'left', animation: 'fadeIn 0.4s ease' }}
+          style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'left', animation: 'fadeIn 0.4s ease', padding: '35px' }}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px', flexWrap: 'wrap', gap: '10px' }}>
-            <h3 style={{ margin: '0', fontSize: '1.4rem' }}>{edu.institution}</h3>
-            <span className="tag" style={{ margin: '0' }}>{edu.year}</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '10px', flexWrap: 'wrap', gap: '15px' }}>
+            <div>
+              <h3 style={{ margin: '0 0 5px 0', fontSize: '1.5rem', fontWeight: '700' }}>{edu.institution}</h3>
+              {/* Institution Address Field */}
+              <p style={{ margin: '0', fontSize: '0.95rem', color: 'var(--color-primary)', fontWeight: '600' }}>
+                📍 {edu.address}
+              </p>
+            </div>
+            
+            {/* Metadata Badges */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'flex-end' }}>
+              <span className="tag" style={{ margin: '0' }}>{edu.year}</span>
+              {/* Performance Indicator Highlight Badge */}
+              <span className="tag" style={{ margin: '0', background: '#ec4899', color: '#ffffff', border: 'none' }}>
+                🏆 {edu.performance}
+              </span>
+            </div>
           </div>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: '1.7' }}>{edu.details}</p>
+          
+          <hr style={{ border: 'none', borderTop: '1px solid var(--border-color)', margin: '20px 0' }} />
+          
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.05rem', lineHeight: '1.7', margin: '0' }}>
+            {edu.details}
+          </p>
         </div>
       ))}
     </section>
