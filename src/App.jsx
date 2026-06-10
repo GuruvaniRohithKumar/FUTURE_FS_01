@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import Achievements from './components/Achievements'; // ✨ Import Achievements
+import Education from './components/Education';       // ✨ Import Education
 import Contact from './components/Contact';
 import './App.css';
 
@@ -14,10 +16,12 @@ function App() {
         <Hero />
         <About />
         <Projects />
+        <Achievements /> {/* ✨ Placed smoothly here */}
+        <Education />    {/* ✨ Placed smoothly here */}
         <Contact />
       </main>
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Guruvani Rohith Kumar. All rights reserved.</p>
       </footer>
     </div>
   );
