@@ -4,25 +4,18 @@ const Achievements = () => {
   const certificates = [
     {
       id: 1,
-      title: "Full Stack Web Development Internship",
-      organization: "Future Interns",
+      title: "SQL Course Certificate",
+      organization: "Intellipaat",
       year: "2026",
       // 💡 Paste the actual credential link or hosted PDF/Image URL below:
-      certificateLink: "https://your-certificate-link-here.com" 
+      certificateLink: "https://lms.intellipaat.com/certificate-link/?Yz1jdXMtOTEzMTY3JnU9NDAzNjkwJmV4dD0x" 
     },
     {
       id: 2,
-      title: "Web Development Internship Certificate",
-      organization: "CodeAlpha",
-      year: "2025",
-      certificateLink: "https://your-certificate-link-here.com"
-    },
-    {
-      id: 3,
-      title: "Software Engineering Trainee Certificate",
-      organization: "Synent Technologies",
-      year: "2025",
-      certificateLink: "https://your-certificate-link-here.com"
+      title: "Microsoft SQL Certification Training Certificate",
+      organization: "Intellipaat",
+      year: "2026",
+      certificateLink: "https://lms.intellipaat.com/certificate-link/?Yz0yODUzJnU9NDAzNjkwJmV4dD0x"
     }
   ];
 
