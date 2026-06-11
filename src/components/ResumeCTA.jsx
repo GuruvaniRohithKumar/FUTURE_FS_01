@@ -19,8 +19,8 @@ const ResumeCTA = () => {
       </p>
       
       <a 
-        href="/Guruvani_Rohith_Kumar_Resume.pdf" 
-        download="Guruvani_Rohith_Kumar_Resume.pdf"
+        href="//Users/guruvanilalithkumar/Downloads/Confirm.pdf" 
+        download="Confirm.pdf"
         style={{
           textDecoration: 'none',
           display: 'inline-flex',
