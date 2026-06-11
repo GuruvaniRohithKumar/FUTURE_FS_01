@@ -105,28 +105,6 @@ const About = () => {
             </div>
           </div>
         ))}
-      </div>
-      {/* Button placed at the very bottom interior of About section */}
-    <div style={{ marginTop: '30px', textAlign: 'center' }}>
-      <a 
-        href="/Confirm.pdf" 
-        download="Guruvani_Rohith_Kumar_Resume.pdf"
-        style={{
-          textDecoration: 'none',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          padding: '12px 28px',
-          borderRadius: '30px',
-          fontWeight: '700',
-          backgroundColor: '#ec4899',
-          color: '#ffffff',
-          border: 'none',
-          boxShadow: '0 4px 14px rgba(236, 72, 153, 0.3)'
-        }}
-      >
-        📥 Download Resume
-      </a>
     </div>
     </section>
   );
