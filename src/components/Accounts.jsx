@@ -16,7 +16,7 @@ const Accounts = () => {
     },
     {
       name: 'Vercel',
-      url: 'https://future-fs-01-three-zeta.vercel.app/',
+      url: 'https://vercel.com/guruvani-rohith-kumar-s-projects',
       icon: '🚀',
       description: 'Live production builds and hosted web applications.'
     }
