@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Accounts from './components/Accounts';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements'; // ✨ Import Achievements
 import Education from './components/Education';      // ✨ Import Education
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Accounts />
         <Projects />
         <Achievements /> {/* ✨ Placed smoothly here */}
         <Education />    {/* ✨ Placed smoothly here */}
