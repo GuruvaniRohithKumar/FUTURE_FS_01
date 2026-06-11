@@ -18,36 +18,27 @@ const ResumeCTA = () => {
         Looking for a quick offline summary of my technical skills and internships?
       </p>
       
-      <a 
-        href="//Users/guruvanilalithkumar/Downloads/Confirm.pdf" 
-        download="Users/guruvanilalithkumar/Downloads/Confirm.pdf"
-        style={{
-          textDecoration: 'none',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          padding: '14px 32px',
-          borderRadius: '30px',
-          fontWeight: '700',
-          fontSize: '1rem',
-          backgroundColor: '#ec4899', /* Portfolio pink accent */
-          color: '#ffffff',
-          border: 'none',
-          cursor: 'pointer',
-          boxShadow: '0 4px 14px rgba(236, 72, 153, 0.3)',
-          transition: 'transform 0.2s ease, box-shadow 0.2s ease'
-        }}
-        onMouseOver={(e) => {
-          e.currentTarget.style.transform = 'translateY(-2px)';
-          e.currentTarget.style.boxShadow = '0 6px 20px rgba(236, 72, 153, 0.4)';
-        }}
-        onMouseOut={(e) => {
-          e.currentTarget.style.transform = 'translateY(0)';
-          e.currentTarget.style.boxShadow = '0 4px 14px rgba(236, 72, 153, 0.3)';
-        }}
-      >
-        📥 Download My Resume
-      </a>
+   <a 
+  href="/Confirm.pdf" /* 👈 Must match the name in your public folder exactly */
+  download="Confirm.pdf" /* 👈 This tells the browser what to name the file when downloaded */
+  style={{
+    /* Your existing styles... */
+    textDecoration: 'none',
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '8px',
+    padding: '14px 32px',
+    borderRadius: '30px',
+    fontWeight: '700',
+    backgroundColor: '#ec4899',
+    color: '#ffffff',
+    border: 'none',
+    cursor: 'pointer',
+    boxShadow: '0 4px 14px rgba(236, 72, 153, 0.3)'
+  }}
+>
+  📥 Download My Resume
+</a>
     </div>
   );
 };
