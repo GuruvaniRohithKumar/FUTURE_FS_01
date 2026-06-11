@@ -20,7 +20,7 @@ const ResumeCTA = () => {
       
       <a 
         href="//Users/guruvanilalithkumar/Downloads/Confirm.pdf" 
-        download="Confirm.pdf"
+        download="Users/guruvanilalithkumar/Downloads/Confirm.pdf"
         style={{
           textDecoration: 'none',
           display: 'inline-flex',
