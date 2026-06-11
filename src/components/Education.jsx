@@ -52,53 +52,6 @@ const Education = () => {
           </button>
         ))}
       </div>
-      {/* ✨ RESUME DOWNLOAD CTA PLACED UNDER ACADEMIC JOURNEY */}
-<div style={{ 
-  textAlign: 'center', 
-  marginTop: '40px', 
-  padding: '20px 0',
-  borderTop: '1px dashed rgba(0, 0, 0, 0.1)' /* Subtle separator line matching light theme */
-}}>
-  <p style={{ 
-    color: '#5a6b7c', 
-    fontSize: '0.95rem', 
-    marginBottom: '15px',
-    fontWeight: '500'
-  }}>
-    Want a offline copy of my academic records and internship details?
-  </p>
-  
-  <a 
-    href="/Confirm.pdf" 
-    download="Confirm.pdf"
-    style={{
-      textDecoration: 'none',
-      display: 'inline-flex',
-      alignItems: 'center',
-      gap: '8px',
-      padding: '12px 28px',
-      borderRadius: '30px',
-      fontWeight: '700',
-      fontSize: '0.95rem',
-      backgroundColor: '#ec4899', /* Matches your portfolio's secondary pink accent */
-      color: '#ffffff',
-      border: 'none',
-      cursor: 'pointer',
-      boxShadow: '0 4px 14px rgba(236, 72, 153, 0.3)',
-      transition: 'transform 0.2s ease, box-shadow 0.2s ease'
-    }}
-    onMouseOver={(e) => {
-      e.currentTarget.style.transform = 'translateY(-2px)';
-      e.currentTarget.style.boxShadow = '0 6px 20px rgba(236, 72, 153, 0.4)';
-    }}
-    onMouseOut={(e) => {
-      e.currentTarget.style.transform = 'translateY(0)';
-      e.currentTarget.style.boxShadow = '0 4px 14px rgba(236, 72, 153, 0.3)';
-    }}
-  >
-    📥 Download Complete Resume
-  </a>
-</div>
 
       {/* Dynamic Detail Card Box Display */}
       {educationData.filter(item => item.id === activeId).map((edu) => (
