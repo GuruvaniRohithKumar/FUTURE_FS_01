@@ -5,7 +5,6 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements'; // ✨ Import Achievements
 import Education from './components/Education';      // ✨ Import Education
-import ResumeCTA from './components/ResumeCTA';
 import Contact from './components/Contact';
 import './App.css';
 
@@ -19,7 +18,6 @@ function App() {
         <Projects />
         <Achievements /> {/* ✨ Placed smoothly here */}
         <Education />    {/* ✨ Placed smoothly here */}
-        <ResumeCTA />
         <Contact />
       </main>
       <footer className="footer">
